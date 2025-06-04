@@ -1,1 +1,1 @@
-../graphics3d/tinyobjloader/tiny_obj_loader.h
+../base/tinyobjloader/tiny_obj_loader.h
