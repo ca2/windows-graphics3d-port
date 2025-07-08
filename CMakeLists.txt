@@ -14,3 +14,12 @@ if(INCLUDE_OPENGL)
     add_subdirectory(graphics3d/glad)
 
 endif()
+
+
+if(INCLUDE_DRAW2D_CAIRO)
+
+    add_subdirectory(graphics/pixman)
+    add_subdirectory(graphics/freetype)
+    add_subdirectory(graphics/cairo)
+
+endif()
