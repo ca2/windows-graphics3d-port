@@ -13,7 +13,7 @@ if(INCLUDE_AUDIO)
 endif()
 
 
-if(INCLUDE_OPENGL)
+if(${INCLUDE_OPENGL})
 
     add_subdirectory(graphics3d/glad)
 
@@ -30,3 +30,4 @@ endif()
 
 add_subdirectory(base/iconv)
 add_subdirectory(base/unac)
+
