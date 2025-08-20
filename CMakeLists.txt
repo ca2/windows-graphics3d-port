@@ -3,7 +3,7 @@ project(port)
 
 
 add_subdirectory(base/sqlite)
-add_subdirectory(base/zlib)
+#add_subdirectory(base/zlib)
 
 
 if(INCLUDE_AUDIO)
